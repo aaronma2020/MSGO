@@ -5,10 +5,7 @@ This repository provieds data and methods in the paper: \
 
 Authors: Nanyang Yu, Zheng Ma, Qi Shao, Laihui Li, Xuebing Wang, and Si Wei*
 
-
-
----
-## Setup
+### Setup
 
 ### Environment
 Python: 3.7 \
@@ -25,9 +22,14 @@ We provide the MSGO model (donwloade here) trained use pseudo smiles-specturm pa
 
 Download the model weights in your path and  
 ```
-python tools/eval.py --model_weights your_model_weights_path
+python tools/eval.py --model_weights your_model_weights_dir
 ```
 
+### Predict real data
+We provide a example data in data/example.csv, and run:
+```
+python tools/eval_standard.py --log_path your_model_weights_dir --real_csv ./data/example --out_csv ./results.csv
+```
 ---
 ## Todos
 - [x] Release model weights
