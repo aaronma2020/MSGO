@@ -20,16 +20,25 @@ We provide the MSGO model (donwloade here) trained use pseudo smiles-specturm pa
 
 ### Evaluation
 
-Download the model weights in your path and  
+Download the model weights in ckpts/pfas or ckpts/lipid, run
 ```
-python tools/eval.py --model_weights your_model_weights_dir
+python tools/eval.py --log_path ckpt/pfas
 ```
 
 ### Predict real data
-We provide a example data in data/example.csv, and run:
+We provide example data in data/example.
+
+For pfas, run :
 ```
-python tools/eval_standard.py --log_path your_model_weights_dir --real_csv ./data/example --out_csv ./results.csv
+python tools/eval_standard.py --log_path ckpts/pfas --real_csv ./data/example/pfas.csv --out_csv ./pfas_results.csv --beam_size 500 --polar neg
 ```
+
+For lipid, run:
+```
+python tools/eval_standard.py --log_path ckpts/lipid --real_csv ./data/example/lipid.csv --out_csv ./lipid_results.csv --beam_size 500 --polar pos
+```
+Then you can obatin a results csv file inluding top 10 predicts.
+
 ---
 ## Todos
 - [x] Release model weights
