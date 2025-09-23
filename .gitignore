@@ -1,4 +1,4 @@
 *.pt
 *.pyc
 __pycache__/
-._DS_Store
+.DS_Store
