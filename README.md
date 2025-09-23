@@ -53,3 +53,30 @@ Then you can obatin a results csv file inluding top 10 predicts.
 - [x] Release model weights
 - [x] Release pseudo and real data
 - [x] Release training process
+
+---
+## Baseline models implementation 
+
+All the code is  in baseline_models folders
+
+For baseline_models/ms2mol
+```
+cd ms_bart 
+python train.py
+```
+
+For massgenie and spec2mol
+
+Training
+You can replicate our experiment with default settings, run
+
+```python tools/train.py```
+
+Evaluation
+You can run
+
+```python tools/utils_eval.py```
+
+Predict real data
+We provide an example.py for your reference. You can replace [data path] with your own data for prediction.
+
