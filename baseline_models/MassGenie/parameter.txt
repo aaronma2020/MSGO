@@ -1,0 +1,14 @@
+PeakListPath = ./metfrag/input/peaklist.txt
+LocalDatabasePath = ./metfrag/input/candidates.csv
+MetFragDatabaseType = LocalCSV
+NeutralPrecursorMass = 500.0
+FragmentPeakMatchAbsoluteMassDeviation = 500.0
+FragmentPeakMatchRelativeMassDeviation = 1000000
+PrecursorIonMode = 1
+IsPositiveIonMode = True
+MetFragScoreTypes = FragmenterScore
+MetFragScoreWeights = 1.0
+MetFragCandidateWriter = CSV
+SampleName = result
+ResultsPath = ./metfrag/output
+MaximumTreeDepth = 2
