@@ -1,7 +1,9 @@
 # MSGO
 
 This repository provieds data and methods in the paper: \
-**Pseudodata-based molecular structure generator to reveal unknown chemicals (under review)**
+**Pseudodata-based molecular structure generator to reveal unknown chemicals **
+
+Accepted for publication in Nature Machine Intelligence
 
 Authors: Nanyang Yu, Zheng Ma, Qi Shao, Laihui Li, Xuebing Wang, Bingcai Pan, Hongxia Yu and Si Wei*
 
