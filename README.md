@@ -3,7 +3,7 @@
 This repository provieds data and methods in the paper: \
 **Pseudodata-based molecular structure generator to reveal unknown chemicals (under review)**
 
-Authors: Nanyang Yu, Zheng Ma, Qi Shao, Laihui Li, Xuebing Wang, and Si Wei*
+Authors: Nanyang Yu, Zheng Ma, Qi Shao, Laihui Li, Xuebing Wang, Bingcai Pan, Hongxia Yu and Si Wei*
 
 ### Setup
 
